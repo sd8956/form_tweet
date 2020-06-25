@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    {{ super() }}
+    :o
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="form_container">
+            <form action="" method="POST" class="login__container--form">
+                <h3>Crear un tweet</h3>
+                <textarea name="message" id="message" cols="30" rows="10"  placeholder="tweet" required="required"></textarea>
+                <input type="text" name="tags" id="tags" placeholder="Personas">
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+{% endblock %}
