@@ -1,5 +1,5 @@
 # Flask
-from flask import request, render_template, url_for
+from flask import request, render_template
 
 # Local
 from bot.bot import make_tweet
